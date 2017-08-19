@@ -1,4 +1,4 @@
-package pierwszydzen;
+package pl.sages.pierwszydzen;
 
 /**
  * Created by vjdwmx on 8/19/2017
