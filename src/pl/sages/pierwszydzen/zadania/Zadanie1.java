@@ -38,11 +38,40 @@ public class Zadanie1 {
 
         suma=0;
         licznik=0;
+
         for (int i = 0; i < rzeczywiste.length; i++) {
             suma=suma + rzeczywiste[i];
             licznik++;
         }
-        System.out.println("Srednia wynosi: "+ (suma/licznik));
+        double srednia=(suma / licznik);
+        System.out.println("Srednia wynosi: "+ srednia);
+
+        double wariancja=0;
+        double minimum=Double.MAX_VALUE;
+        double maksimum=Double.MIN_VALUE;
+
+        for (int i = 0; i < rzeczywiste.length; i++) {
+            wariancja = wariancja + (rzeczywiste[i] - srednia)*(rzeczywiste[i] - srednia);
+            minimum=Math.min(minimum,rzeczywiste[i]);
+            maksimum=Math.max(maksimum,rzeczywiste[i]);
+        }
+        wariancja=Math.sqrt(wariancja);
+        System.out.println("Wariancja wynosi: " + wariancja);
+        System.out.println("Minumum wynosi: " + minimum);
+        System.out.println("Maximum wynosi: " + maksimum);
+
+        int half = rzeczywiste.length / 2;
+        int rozmiar = rzeczywiste.length;
+        System.out.print("{");
+        for (int i = 0; i <half ; i++) {
+            System.out.print(rzeczywiste[i] + rzeczywiste[rozmiar - i - 1]);
+            if (i<half - 1)
+                System.out.print(",");
+        }
+        System.out.print("}");
+
+
+
 
 
 
