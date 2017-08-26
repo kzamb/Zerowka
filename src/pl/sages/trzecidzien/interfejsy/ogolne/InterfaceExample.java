@@ -1,4 +1,4 @@
-package pl.sages.trzecidzien.interfejsy;
+package pl.sages.trzecidzien.interfejsy.ogolne;
 
 public class InterfaceExample {
     public static void main(String[] args) {

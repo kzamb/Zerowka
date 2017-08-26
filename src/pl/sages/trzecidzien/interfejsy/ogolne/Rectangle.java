@@ -1,6 +1,6 @@
-package pl.sages.trzecidzien.interfejsy;
+package pl.sages.trzecidzien.interfejsy.ogolne;
 
-public class Rectangle implements Shape{
+public class Rectangle implements Shape {
 
     private double a;
     private double b;
