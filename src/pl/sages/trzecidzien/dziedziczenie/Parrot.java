@@ -16,4 +16,9 @@ public class Parrot extends Bird {
                 "name='" + name + '\'' +
                 '}';
     }
+
+    @Override
+    public void voice() {
+
+    }
 }

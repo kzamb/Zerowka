@@ -1,6 +1,6 @@
 package pl.sages.trzecidzien.dziedziczenie;
 
-public class Pet {
+public abstract class Pet {
     protected String name;
 
 
@@ -21,6 +21,6 @@ public class Pet {
                 '}';
     }
 
-    public void voice() {}
+    public abstract void voice();
 
 }
