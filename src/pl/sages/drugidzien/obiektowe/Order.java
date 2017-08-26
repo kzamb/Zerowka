@@ -6,7 +6,7 @@ public class Order {
 
     private int counter = 0;
     private Article[] articles;
-    private ClientType clientType;
+    //private ClientType clientType;
 
     public Order(int size) {
         articles = new Article[size];

@@ -6,7 +6,7 @@ package pl.sages.drugidzien;
 public class BreakContinue {
     public static void main(String[] args) {
 
-    int[] tab = {1, 2, 3, 4, 5, 6, 7, -9, 3, 4, 5, 6};
+    int[] tab = {1, 2, 3, 4, 5, 6, 7, -9, 3, 4, 5, 6,12};
     for(int i:tab) {
         if (i < 0)
             break;
