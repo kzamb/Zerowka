@@ -5,9 +5,10 @@ public class VendingMachine {
     private Shelf[] shelves;
     private CoinDispenser dispenser;
 
-    public
+
 
     public VendingMachine(int shelfCounter) {
+
         this.shelves = new Shelf[shelfCounter];
     }
 
@@ -18,6 +19,17 @@ public class VendingMachine {
         shelves[shelf] = new Shelf(product, productCount);
     }
 
+    public void setShelf(int shelfNumber, Shelf shelf) {
+
+    }
+
+    public void cancel() {
+
+    }
+    public void insertCoin(Coin coin) {
 
 
+
+
+    }
 }

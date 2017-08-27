@@ -42,6 +42,8 @@ public class Money {
         return value/100 + "." + grosze.substring(grosze.length()-2) + " PLN";
     }
 
-
+    public boolean greaterThanOrEqualTo() {
+     return true;
+    }
 
 }
